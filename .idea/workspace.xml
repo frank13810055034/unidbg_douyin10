@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6660a45-b87c-4739-9f1f-2bf8a33e69ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/WX20200408-170239@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kaitai_struct_compile_java.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pull.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/AbstractEmulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/Alignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/AndroidEmulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/AssemblyCodeDumper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ByteArrayNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/Emulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/InvalidMemoryAccessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/LibraryResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/Module.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ModuleListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/PointerNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/StopEmulatorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/StringNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/Svc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/Symbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/TraceMemoryHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/ARM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/ARMEmulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/ARMSvcMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/AbstractARM64Emulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/AbstractARMDebugger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/AbstractARMEmulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/Arguments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/Arm64Hook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/Arm64Svc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/ArmHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/ArmIntercept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/ArmSvc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/CodeHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/Cpsr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/HookStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/InlineHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/SimpleARM64Debugger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/SimpleARMDebugger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/ThumbIntercept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/ThumbSvc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/context/AbstractRegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/context/Arm32RegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/context/Arm64RegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/context/BaseRegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/context/EditableArm32RegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/context/EditableArm64RegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/context/RegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/context/UnicornArm32RegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/arm/context/UnicornArm64RegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/AbstractDebugServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/BreakPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/BreakPointCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/Breaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/DebugListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/DebugServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/Debugger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/DebuggerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/BreakpointCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/ContinueCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/DetachCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/EnableExtendedModeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/ExtendedCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/GdbStub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/GdbStubCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/KillCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/LastSignalCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/MemoryCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/QueryCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/RegisterCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/RegistersCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/SetThreadCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/gdb/StepCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/ida/AndroidServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/ida/DebuggerEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/ida/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/ida/event/AttachExecutableEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/ida/event/DetachEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/ida/event/LoadExecutableEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/debugger/ida/event/LoadModuleEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/AbstractFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/BaseFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/BaseFileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/DumpFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/FileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/FileResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/FileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/IOResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/NewFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/Stdin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/ios/BaseDarwinFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/ios/DarwinFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/ios/DarwinFileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/ios/IOConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/ios/StatStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/linux/AndroidFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/linux/BaseAndroidFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/linux/IOConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/linux/LinuxFileSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/file/linux/StatStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/Arm32HookContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/Arm64HookContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/BaseHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/HookCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/HookContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/HookListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/IHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/InterceptCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/InvocationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/ReplaceCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/fishhook/IFishHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/hookzz/Arm64HookEntryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/hookzz/ArmHookEntryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/hookzz/HookEntryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/hookzz/HookZz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/hookzz/HookZzArm32RegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/hookzz/HookZzArm32RegisterContextImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/hookzz/HookZzArm64RegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/hookzz/HookZzArm64RegisterContextImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/hookzz/HookZzRegisterContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/hookzz/IHookZz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/hookzz/WrapCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/substrate/ISubstrate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/whale/IWhale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/whale/Whale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/hook/xhook/IxHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/ARM32SyscallHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/ARM64SyscallHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/DarwinARM64Emulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/DarwinARMEmulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/DarwinResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/DarwinSyscall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/Dyld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/Dyld32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/Dyld64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/ExportSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/FishHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/IndirectSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/MachO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/MachOLibraryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/MachOLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/MachOModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/MachOModuleInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/MachOSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/NeedLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/Relocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/Substrate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/SubstrateSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/URLibraryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/classdump/ClassDumper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/classdump/IClassDumper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/file/ByteArrayFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/file/DirectoryFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/file/LocalDarwinUdpSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/file/SimpleFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/file/Stdout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/ipa/IpaLibraryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/ipa/IpaLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/ipa/IpaLoaderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/objc/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/objc/ObjC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/objc/ObjcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/service/CFNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/service/CoreTelephony.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/service/FrameworkHooker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/service/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/service/UIKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/LoadCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/MachHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/MachHeader64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/SegmentCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/SegmentCommand32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/SegmentCommand64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/cf/CFString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/AslServerMessageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/AuditToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/HostGetClockServiceReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/HostGetClockServiceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/HostInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/HostInfoReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/HostInfoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/IOServiceAddNotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/IOServiceGetMatchingServiceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachMsgBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachMsgHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachMsgPortDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachPortLimits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachPortOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachPortReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachPortSetAttributesReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachPortSetAttributesRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachPortTypeReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachPortTypeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachPortsLookup64Reply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachPortsLookupReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/MachTimebaseInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NDR_record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerCancelReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerCancelRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerGetStateReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerGetStateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerRegisterCheck64Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerRegisterCheckReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerRegisterCheckRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerRegisterMachPort64Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerRegisterMachPortReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerRegisterMachPortRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerRegisterPlain64Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerRegisterPlainReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/NotifyServerRegisterPlainRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/ProcBsdShortInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/Pthread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/Pthread32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/Pthread64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/RLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/SchedParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/SemaphoreCreateReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/SemaphoreCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/Stat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/Stat64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/StatFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/TailqPthread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/TaskGetExceptionPortsReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/TaskGetExceptionPortsRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/TaskGetSpecialPortReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/TaskGetSpecialPortRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/TaskInfoReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/TaskInfoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VmCopy64Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VmCopyReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VmCopyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VmRegionRecurse32Reply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VmRegionRecurse32Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VmRegionRecurse64Reply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VmRegionRecurse64Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VmRegionSubMapShortInfo64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VmRemapReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VmRemapRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VprocMigLookupData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VprocMigLookupReply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/kernel/VprocMigLookupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/objc/ClassRO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/objc/ClassRW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/objc/ObjcClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/objc/ObjcConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/objc/ObjcObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/DyldAllImageInfos32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/DyldAllImageInfos64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/DyldImageInfo32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/DyldImageInfo64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/EProc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/ExternProc32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/ExternProc64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/KInfoProc32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/KInfoProc64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/Pcred.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/TaskDyldInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/Ucred.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/ios/struct/sysctl/VmSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/ARM64SyscallHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/ARMSyscallHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/AbsoluteInitFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/AndroidElfLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/LinuxInitFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/LinuxModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/LinuxSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/LinuxThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/ModuleSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/AndroidARM64Emulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/AndroidARMEmulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/AndroidResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/ArmLD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/ArmLD64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/ElfLibraryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/SystemPropertyHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/SystemPropertyProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/URLibraryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/XHookImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/AbstractJni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/ArmVarArg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/ArrayListObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/BaseVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/DalvikModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/DalvikVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/DalvikVM64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/DvmClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/DvmField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/DvmMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/DvmObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/Enumeration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/Hashable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/JValueList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/Jni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/StackTraceElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/StringObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/VM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/VaList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/VaList32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/VaList64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/VarArg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/ApplicationInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/AssetManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/Binder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/Bitmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/Bundle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/ClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/ContentResolve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/NetworkInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/PackageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/ServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/Signature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/SystemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/Thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/array/ArrayObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/array/BaseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/array/ByteArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/array/DoubleArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/array/FloatArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/array/IntArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/array/PrimitiveArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/wrapper/DvmBoolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/wrapper/DvmInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/wrapper/DvmLong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/Ashmem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/ByteArrayFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/DirectoryFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/DnsProxyDaemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/DriverFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/LocalAndroidUdpSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/LocalSocketIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/LogCatFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/MapsFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/NullFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/RandomFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/SimpleFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/Stdout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/file/StdoutCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/struct/Dirent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/struct/IFConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/struct/IFReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/struct/IFReq32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/struct/IFReq64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/struct/Stat32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/struct/Stat64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/struct/SysInfo32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/listener/TraceCodeListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/listener/TraceReadListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/listener/TraceWriteListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/memory/MemRegion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/memory/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/memory/MemoryAllocBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/memory/MemoryBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/memory/MemoryBlockImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/memory/MemoryMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/memory/StackMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/memory/SvcMemory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/pointer/UnicornPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/pointer/UnicornStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/spi/AbstractLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/spi/Disassembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/spi/Dlfcn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/spi/InitFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/spi/LibraryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/spi/Loader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/spi/SyscallHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/spi/ValuePair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/IO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/UnixEmulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/UnixSyscallHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/file/LocalUdpSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/file/SocketIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/file/TcpSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/file/UdpSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/DlInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/ITimerVal32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/ITimerVal64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/SockAddr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/StdString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/StdString32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/StdString64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/TimeSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/TimeSpec64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/TimeVal32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/TimeVal64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/unix/struct/TimeZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/utils/Inspector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/virtualmodule/VirtualModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/virtualmodule/VirtualSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/virtualmodule/android/AndroidModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/unidbg/virtualmodule/android/JniGraphics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/kaitai/MachO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/AndroidRelocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/AndroidRelocationIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfDynamicStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfGnuHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfInitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfRelocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfSection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfSegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfStringTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfSymbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/ElfSymbolStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/MemoizedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/fornwall/jelf/SymbolLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/native/ios/bootstrap.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/native/ios/bootstrap.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/native/ios/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/native/ios/class-dump.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/native/ios/class-dump.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/native/ios/test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/lib/arm64-v8a/libhookzz.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/lib/arm64-v8a/libwhale.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/lib/arm64-v8a/libxhook.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/lib/armeabi-v7a/libhookzz.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/lib/armeabi-v7a/libwhale.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/lib/armeabi-v7a/libxhook.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk19/dev/__properties__" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk19/lib/libc.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk19/lib/libcrypto.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk19/lib/libdl.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk19/lib/liblog.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk19/lib/libm.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk19/lib/libssl.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk19/lib/libstdcpp.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk19/lib/libz.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk19/system/usr/share/zoneinfo/tzdata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/dev/__properties__" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib/libc.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib/libcpp.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib/libcrypto.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib/libdl.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib/liblog.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib/libm.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib/libssl.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib/libstdcpp.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib/libz.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib64/libc.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib64/libcpp.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib64/libcrypto.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib64/libdl.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib64/liblog.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib64/libm.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib64/libssl.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib64/libstdcpp.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/lib64/libz.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/proc/stat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/android/sdk23/system/usr/share/zoneinfo/tzdata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/Accelerate.framework/Accelerate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/CFNetwork.framework/CFNetwork" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/CoreAudio.framework/CoreAudio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/CoreImage.framework/CoreImage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/CoreMedia.framework/CoreMedia" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/CoreText.framework/CoreText" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/CoreVideo.framework/CoreVideo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/Foundation.framework/Foundation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/ImageIO.framework/ImageIO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/MediaAccessibility.framework/MediaAccessibility" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/OpenGLES.framework/OpenGLES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/OpenGLES.framework/libCVMSPluginSupport.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/OpenGLES.framework/libCoreVMClient.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/OpenGLES.framework/libGFXShared.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/OpenGLES.framework/libGLImage.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/QuartzCore.framework/QuartzCore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/Security.framework/Security" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/UIKit.framework/UIKit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/Frameworks/VideoToolbox.framework/VideoToolbox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/AggregateDictionary.framework/AggregateDictionary" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/AppSupport.framework/AppSupport" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/BackBoardServices.framework/BackBoardServices" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/Bom.framework/Bom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/CertUI.framework/CertUI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/CommonUtilities.framework/CommonUtilities" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/CommunicationsFilter.framework/CommunicationsFilter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/ConstantClasses.framework/ConstantClasses" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/CoreSurface.framework/CoreSurface" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/CoreUI.framework/CoreUI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/CrashReporterSupport.framework/CrashReporterSupport" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/DataAccessExpress.framework/DataAccessExpress" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/DictionaryServices.framework/DictionaryServices" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/ExFAT.framework/ExFAT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/IMFoundation.framework/IMFoundation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/IOMobileFramebuffer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/IOSurface.framework/IOSurface" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/MobileAsset.framework/MobileAsset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/MobileKeyBag.framework/MobileKeyBag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/MobileSystemServices.framework/MobileSystemServices" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/OAuth.framework/OAuth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/OpenCL.framework/OpenCL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/PhysicsKit.framework/PhysicsKit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/PrintKit.framework/PrintKit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/ProofReader.framework/ProofReader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/TCC.framework/TCC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/TelephonyUtilities.framework/TelephonyUtilities" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/TextInput.framework/TextInput" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/UserFS.framework/UserFS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/System/Library/PrivateFrameworks/XPCObjects.framework/XPCObjects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libAccessibility.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libCRFSuite.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libMobileGestalt.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libMobileGestaltExtensions.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libSystem.B.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libTelephonyUtilDynamic.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libbsm.0.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libbz2.1.0.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libcpp.1.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libcppabi.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libgcc_s.1.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libiconv.2.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libicucore.A.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/liblangid.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/liblockdown.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libobjc.A.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libresolv.9.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libsqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libstdcpp.6.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libtidy.A.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libxml2.2.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libxslt.1.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/libz.1.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libcache.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libcommonCrypto.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libcompiler_rt.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libcopyfile.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libcorecrypto.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libdispatch.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libdyld.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libkeymgr.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/liblaunch.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libmacho.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libremovefile.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_asl.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_blocks.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_c.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_configuration.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_dnssd.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_info.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_kernel.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_m.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_malloc.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_network.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_notify.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_platform.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_pthread.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libsystem_sandbox.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libunwind.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/usr/lib/system/libxpc.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/var/db/icu/icudt51l.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/var/db/timezone/localtime" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/var/db/timezone/zoneinfo/UTC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/7.1/var/db/timezone/zoneinfo/posixrules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/bootstrap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/bootstrap_objc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/lib/libclassdump.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/lib/libfishhook.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/lib/libhookzz.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/lib/libsubstrate.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ios/lib/libwhale.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/PropertiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/Android64Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/AndroidRelocationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/AndroidTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/BusyBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/CrackMe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/EmulatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/McToTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/QDReaderJni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/RunExecutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/ida/AndroidServer64Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/ida/AndroidServerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/ida/Arm64Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/ida/MyARM64SyscallHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/ida/MyARMSyscallHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/ida/MyAndroidARM64Emulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/ida/MyAndroidARMEmulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/android/ida/PTrace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/ios/ClassDump64Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/ios/ClassDumpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/ios/IpaLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/ios/MachOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/ios/StackLogDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/ios/Substrate64Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/ios/SubstrateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/unidbg/ios/XpcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sun/jna/JniDispatch32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sun/jna/JniDispatch64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sun/jna/JniDispatchTest32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sun/jna/soTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sun/jna/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/example_binaries/armeabi-v7a/libcms.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/example_binaries/ida/android_server" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/example_binaries/ida/android_server64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZydTwAvT5ZtajPrnLxiaivCrue" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/sun/jna" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sun.jna" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/example_binaries/armeabi-v7a" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.JniDispatchTest32">
+    <configuration name="Dy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sun.jna.Dy" />
+      <module name="unidbg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sun.jna.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JniDispatch32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sun.jna.JniDispatch32" />
+      <module name="unidbg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sun.jna.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JniDispatchTest32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sun.jna.JniDispatchTest32" />
+      <module name="unidbg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sun.jna.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TTEncrypt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.frameworks.core.encrypt.TTEncrypt" />
+      <module name="unidbg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bytedance.frameworks.core.encrypt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="soTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sun.jna.soTest" />
+      <module name="unidbg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sun.jna.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JniDispatchTest32" />
+        <item itemvalue="Application.TTEncrypt" />
+        <item itemvalue="Application.soTest" />
+        <item itemvalue="Application.Dy" />
+        <item itemvalue="Application.JniDispatch32" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6660a45-b87c-4739-9f1f-2bf8a33e69ce" name="Default Changelist" comment="" />
+      <created>1585815278696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585815278696</updated>
+      <workItem from="1585815282325" duration="361000" />
+      <workItem from="1585815664122" duration="5870000" />
+      <workItem from="1585836228991" duration="1804000" />
+      <workItem from="1585880228907" duration="505000" />
+      <workItem from="1586050501854" duration="21957000" />
+      <workItem from="1586075626954" duration="1839000" />
+      <workItem from="1586078235337" duration="1069000" />
+      <workItem from="1586088232055" duration="108000" />
+      <workItem from="1586141437989" duration="1885000" />
+      <workItem from="1586146153386" duration="4498000" />
+      <workItem from="1586175260812" duration="718000" />
+      <workItem from="1586239039362" duration="1902000" />
+      <workItem from="1586316866497" duration="871000" />
+      <workItem from="1586324706483" duration="1136000" />
+      <workItem from="1586325905050" duration="6860000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sun/jna/JniDispatchTest32.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sun/jna/JniDispatchTest32.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sun/jna/soTest.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sun/jna/soTest.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/AbstractJni.java</url>
+          <line>510</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/ContentResolve.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/api/ContentResolve.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/ARMSyscallHandler.java</url>
+          <line>1883</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/sun/jna/JniDispatch32.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/DalvikVM.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/AbstractJni.java</url>
+          <line>352</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/unidbg/linux/android/dvm/AbstractJni.java</url>
+          <line>350</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="pointer.getByteArray(0,100)" language="JAVA" />
+        <watch expression="ret.intValue()" language="JAVA" />
+        <watch expression="ret.intValue() &amp; 0xffffffffL" language="JAVA" />
+        <watch expression="vm.getObject(address)" language="JAVA" />
+        <watch expression="is64Bit()" language="JAVA" />
+        <watch expression="until" />
+        <watch expression="dvmObject.getValue()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
