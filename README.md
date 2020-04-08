@@ -26,4 +26,4 @@ IDEA中打开项目
 - [fishhook](https://github.com/facebook/fishhook)
 
 
-【声明:纯属android hook练习,本项目仅供技术学习交流,其它非法用途与本人无关】
+【声明:纯属android frida/ida/hook练习,本项目仅供技术学习交流,其它非法用途与本人无关】
