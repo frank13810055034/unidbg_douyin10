@@ -1,5 +1,7 @@
 # unidbg_douyin libcms.so.10.5
 
+本基本是参考 unicorn 和 ExAndroidNativeEmu 个人学习使用，不在更新,4月8日
+
 ```
 本项目基本unicorn,
 参考ExAndroidNativeEmu个人学习使用，不在更新
